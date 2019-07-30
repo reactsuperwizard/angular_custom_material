@@ -1,0 +1,43 @@
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.primary{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #3f82ff;
+}
+.mat-raised-button {
+    color:white;
+    
+}
+.mat-raised-button:disabled{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #cfdfff;
+    color:white;
+}
+.mat-raised-button.import{
+    color:white;        
+}
+.import::before{
+    background-image:url('/assets/baseline_save_alt_white_18dp.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    top:-5px;
+    
+}
+h3 {
+    /* Style for "BUTTONS -" */
+    color: #b6b6b6;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
